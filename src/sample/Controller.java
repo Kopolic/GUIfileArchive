@@ -52,6 +52,5 @@ public class Controller {
             Files.copy(Path.of(archiveFile.getAbsolutePath()),zipOutputStream);
         }
         zipOutputStream.close();
-        txtArea.setText("");
     }
 }
