@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="txtArea" layoutX="15.0" layoutY="14.0" prefHeight="275.0" prefWidth="570.0" />
+      <Button layoutX="15.0" layoutY="355.0" mnemonicParsing="false" onAction="#buttonChose" text="Выбрать файлы" />
+      <Button layoutX="129.0" layoutY="355.0" mnemonicParsing="false" onAction="#buttonToArchive" text="Занести в архив" />
+      <TextArea fx:id="txtArchivePath" layoutX="14.0" layoutY="300.0" prefHeight="38.0" prefWidth="570.0" />
+   </children>
+</Pane>
